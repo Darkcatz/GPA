@@ -1,27 +1,19 @@
-var countDownDate = new Date("Nov 10, 2019 11:10:25").getTime();
+window.addEventListener('scroll', function(e){
+    const target = document.querySelectorAll('.scroll');
 
-// Update the count down every 1 second
-var x = setInterval(function() {
+    
+    var index = 0, length = target.length;
+    for (index; index < length; index++){
+        var pos = window.pageYOffset * target[index].dataset.rate;
 
-  // Get todays date and time
-  var now = new Date().getTime();
+        if(target[index].dataset.direction === 'vertical'){
+            target[index].style.transform = 'translate3d(0px, '+pos+'px, 0px)';
+        } else {
+            var posX = window.pageYOffset * target[index].dataset.ratex;
+            var posY = window.pageYOffset * target[index].dataset.ratey;
 
-  // Find the distance between now an the count down date
-  var distance = countDownDate - now;
-
-  // Time calculations for days, hours, minutes and seconds
-  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-  // Display the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-  + minutes + "m " + seconds + "s ";
-
-  // If the count down is finished, write some text 
-  if (distance < 0) {
-    clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
-  }
-}, 1000);
+            target[index].style.transform = 'translate3d('+posX+'px, '+posY+'px, 0px)';
+        }
+            
+    }
+})
