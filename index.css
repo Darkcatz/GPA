@@ -80,134 +80,135 @@ html{
 
 .img1{
     background: url("imgs/IMG_20141011_112447.jpg") no-repeat;
-    margin: 50px;
-    background-size: 400px;
-    width: 400px;
-    height: 532px;
+    margin: 20px;
+    background-size: contain;
+    width: 25%;
+    height: 60%;
     background-position: 100% 30%;
 
 }
+
 .img2{
-    height: 600px;
-    width: 400px;
+    height: 70%;
+    width: 25%;
     background: url("imgs/IMG_1936.JPG") no-repeat;
-    margin: 40px;
-    background-size: 500px;
+    margin: 20px;
+    background-size: contain;
 }
 .img3{
     background: url(imgs/20160813_113541.jpg) no-repeat;
-    margin: 40px;
-    background-size: 600px;
-    height: 600px;
-    width: 500px;
+    margin: 20px;
+    background-size: contain;
+    height: 50%;
+    width: 25%;
 }
 .img4{
     background: url(imgs/IMG_20161022_142111.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 50%;
+    width: 25%;
 }
 .img5{
     background: url(imgs/IMG_20161015_200410_1.jpg) no-repeat;
-    margin: 40px;
-    background-size: 600px;
-    height: 600px;
-    width: 500px;
+    margin: 20px;
+    background-size: contain;
+    height: 100%;
+    width: 25%;
 }
 .img6{
     background: url(imgs/IMG_20150717_151013-ANIMATION.gif) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img7{
     background: url(imgs/DSC04955.JPG) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
     background-position-x: 100%;
 }
 .img8{
     background: url(imgs/DSC04747.JPG) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
     background-position-x: 100%;
 }
 .img9{
     background: url(imgs/20160519_084432.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img10{
     background: url(imgs/IMG_20171120_162716062.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img11{
     background: url(imgs/S4010299.JPG) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img12{
     background: url(imgs/20170722_195335_HDR.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
     background-position-y: 50%;
 }
 .img13{
     background: url(imgs/IMG_20161216_200237.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img14{
     background: url(imgs/IMG_20170611_114511.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img15{
     background: url(imgs/IMG_20170603_203212.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img16{
     background: url(imgs/20160717_062004.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img17{
     background: url(imgs/20191202_213833.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 800px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 .img18{
     background: url(imgs/IMG_20180722_122056926.jpg) no-repeat;
-    margin: 40px;
+    margin: 20px;
     background-size: 600px;
-    height: 600px;
-    width: 500px;
+    height: 100%;
+    width: 25%;
 }
 
 .chapter2{
