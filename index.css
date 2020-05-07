@@ -128,6 +128,7 @@ html{
     background-size: 600px;
     height: 600px;
     width: 500px;
+    background-position-x: 100%;
 }
 .img8{
     background: url(imgs/DSC04747.JPG) no-repeat;
@@ -135,6 +136,7 @@ html{
     background-size: 600px;
     height: 600px;
     width: 500px;
+    background-position-x: 100%;
 }
 .img9{
     background: url(imgs/20160519_084432.jpg) no-repeat;
@@ -163,6 +165,7 @@ html{
     background-size: 600px;
     height: 600px;
     width: 500px;
+    background-position-y: 50%;
 }
 .img13{
     background: url(imgs/IMG_20161216_200237.jpg) no-repeat;
@@ -219,6 +222,7 @@ html{
 }
 .chapter5{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_20141205_123456.jpg);
+    background-position-y: 40%;
 }
 .chapter6{
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(imgs/IMG_20171225_180714090.jpg);
